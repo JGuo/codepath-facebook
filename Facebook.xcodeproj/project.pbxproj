@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F09A7431C6C25A3005101D2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09A7421C6C25A3005101D2 /* Common.swift */; };
+		8F09A7451C6C25E5005101D2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09A7441C6C25E5005101D2 /* LogInViewController.swift */; };
 		8FBDC7331C62CF0C005D3AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC7321C62CF0C005D3AC9 /* AppDelegate.swift */; };
 		8FBDC7351C62CF0C005D3AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC7341C62CF0C005D3AC9 /* ViewController.swift */; };
 		8FBDC7381C62CF0C005D3AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDC7361C62CF0C005D3AC9 /* Main.storyboard */; };
 		8FBDC73A1C62CF0C005D3AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDC7391C62CF0C005D3AC9 /* Assets.xcassets */; };
 		8FBDC73D1C62CF0C005D3AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDC73B1C62CF0C005D3AC9 /* LaunchScreen.storyboard */; };
+		8FBDC7451C62D3CE005D3AC9 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC7441C62D3CE005D3AC9 /* MessagesViewController.swift */; };
+		8FBDC7471C62D5D4005D3AC9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC7461C62D5D4005D3AC9 /* FeedViewController.swift */; };
+		8FBDC7491C62D9C5005D3AC9 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC7481C62D9C5005D3AC9 /* MoreViewController.swift */; };
+		8FBDC74B1C62DB18005D3AC9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC74A1C62DB18005D3AC9 /* NotificationsViewController.swift */; };
+		8FBDC74D1C62DC00005D3AC9 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC74C1C62DC00005D3AC9 /* RequestViewController.swift */; };
+		8FBDC74F1C62E130005D3AC9 /* ThrillistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDC74E1C62E130005D3AC9 /* ThrillistViewController.swift */; };
+		8FD639361C8B7D9D0019B3DD /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD639351C8B7D9D0019B3DD /* PhotoViewController.swift */; };
+		8FD639381C8B884A0019B3DD /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD639371C8B884A0019B3DD /* BaseTransition.swift */; };
+		8FD6393A1C8B88590019B3DD /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD639391C8B88590019B3DD /* FadeTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F09A7421C6C25A3005101D2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../../Downloads/Common.swift; sourceTree = "<group>"; };
+		8F09A7441C6C25E5005101D2 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		8FBDC72F1C62CF0C005D3AC9 /* Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDC7321C62CF0C005D3AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FBDC7341C62CF0C005D3AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		8FBDC7391C62CF0C005D3AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FBDC73C1C62CF0C005D3AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FBDC73E1C62CF0C005D3AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBDC7441C62D3CE005D3AC9 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		8FBDC7461C62D5D4005D3AC9 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		8FBDC7481C62D9C5005D3AC9 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		8FBDC74A1C62DB18005D3AC9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		8FBDC74C1C62DC00005D3AC9 /* RequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		8FBDC74E1C62E130005D3AC9 /* ThrillistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistViewController.swift; sourceTree = "<group>"; };
+		8FD639351C8B7D9D0019B3DD /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		8FD639371C8B884A0019B3DD /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		8FD639391C8B88590019B3DD /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +79,18 @@
 				8FBDC7321C62CF0C005D3AC9 /* AppDelegate.swift */,
 				8FBDC7341C62CF0C005D3AC9 /* ViewController.swift */,
 				8FBDC7361C62CF0C005D3AC9 /* Main.storyboard */,
+				8FD639391C8B88590019B3DD /* FadeTransition.swift */,
+				8FD639371C8B884A0019B3DD /* BaseTransition.swift */,
+				8FD639351C8B7D9D0019B3DD /* PhotoViewController.swift */,
+				8F09A7441C6C25E5005101D2 /* LogInViewController.swift */,
+				8FBDC74E1C62E130005D3AC9 /* ThrillistViewController.swift */,
+				8FBDC74C1C62DC00005D3AC9 /* RequestViewController.swift */,
+				8FBDC74A1C62DB18005D3AC9 /* NotificationsViewController.swift */,
+				8FBDC7481C62D9C5005D3AC9 /* MoreViewController.swift */,
+				8FBDC7461C62D5D4005D3AC9 /* FeedViewController.swift */,
+				8FBDC7441C62D3CE005D3AC9 /* MessagesViewController.swift */,
 				8FBDC7391C62CF0C005D3AC9 /* Assets.xcassets */,
+				8F09A7421C6C25A3005101D2 /* Common.swift */,
 				8FBDC73B1C62CF0C005D3AC9 /* LaunchScreen.storyboard */,
 				8FBDC73E1C62CF0C005D3AC9 /* Info.plist */,
 			);
@@ -135,8 +168,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBDC7491C62D9C5005D3AC9 /* MoreViewController.swift in Sources */,
+				8FD639381C8B884A0019B3DD /* BaseTransition.swift in Sources */,
+				8FBDC7451C62D3CE005D3AC9 /* MessagesViewController.swift in Sources */,
+				8FBDC74D1C62DC00005D3AC9 /* RequestViewController.swift in Sources */,
 				8FBDC7351C62CF0C005D3AC9 /* ViewController.swift in Sources */,
+				8F09A7431C6C25A3005101D2 /* Common.swift in Sources */,
+				8FBDC74B1C62DB18005D3AC9 /* NotificationsViewController.swift in Sources */,
+				8FBDC7471C62D5D4005D3AC9 /* FeedViewController.swift in Sources */,
+				8FBDC74F1C62E130005D3AC9 /* ThrillistViewController.swift in Sources */,
+				8F09A7451C6C25E5005101D2 /* LogInViewController.swift in Sources */,
 				8FBDC7331C62CF0C005D3AC9 /* AppDelegate.swift in Sources */,
+				8FD6393A1C8B88590019B3DD /* FadeTransition.swift in Sources */,
+				8FD639361C8B7D9D0019B3DD /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +328,7 @@
 				8FBDC7431C62CF0C005D3AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
